@@ -52,7 +52,7 @@ public class Main {
         System.out.println("\n*** Зоопарк ***");
 
         List<Animal> zooEnclosure = new ArrayList<>();
-        zooEnclosure.add(new Lion("Блохастый", 5));
+        zooEnclosure.add(new Lion("ПростоЛев", 5));
         zooEnclosure.add(new Parrot("Полундра", 2));
 
         for (Animal animal : zooEnclosure) {
