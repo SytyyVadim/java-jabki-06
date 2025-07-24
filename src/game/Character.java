@@ -26,19 +26,19 @@ public class Character {
      */
     public void takeDamage(int damage) {
         if (damage > 0) {
-            health -= damage;
-            if (health < 0) {
-                health = 0;
+            this.health -= damage;
+            if (this.health < 0) {
+                this.health = 0;
             }
             System.out.println(name + " получает " + damage + " урона. Осталось здоровья: " + health);
         }
     }
 
     public int getHealth() {
-        return health;
+        return this.health;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 }

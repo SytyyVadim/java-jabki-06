@@ -22,7 +22,7 @@ public class Account {
      */
     public void deposit(double amount) {
         if (amount > 0) {
-            balance += amount;
+            this.balance += amount;
         }
     }
 
@@ -33,7 +33,7 @@ public class Account {
      */
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
-            balance -= amount;
+            this.balance -= amount;
         } else {
             System.out.println("Недостаточно средств для снятия.");
         }

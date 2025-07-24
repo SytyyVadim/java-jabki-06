@@ -33,7 +33,7 @@ public class SavingsAccount extends Account {
      * Начисление процентов на баланс.
      */
     public void applyInterest() {
-        double interest = balance * interestRate / 100;
+        double interest = balance * this.interestRate / 100;
         balance += interest;
     }
 }

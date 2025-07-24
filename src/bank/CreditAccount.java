@@ -24,7 +24,7 @@ public class CreditAccount extends Account {
     public void withdraw(double amount) {
         if (amount <= 0) return;
 
-        if (balance - amount >= -creditLimit) {
+        if (balance - amount >= -this.creditLimit) {
             double before = balance;
             super.withdraw(amount);
 

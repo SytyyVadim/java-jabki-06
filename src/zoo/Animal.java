@@ -20,6 +20,6 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println(name + " чавкает чав чав");
+        System.out.println(this.name + " чавкает чав чав");
     }
 }
