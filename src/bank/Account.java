@@ -42,4 +42,8 @@ public class Account {
     public void displayInfo() {
         System.out.println("Счёт: " + accountNumber + ", Баланс: " + balance);
     }
+
+    public double getBalance() {
+        return balance;
+    }
 }
